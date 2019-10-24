@@ -11,7 +11,7 @@
 	<groupId>com.buyun.mall.mobile</groupId>
 	<artifactId>bunyun-mall-web</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>bunyun-service</name>
+	<name>bunyun-mall-web</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -22,6 +22,12 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+
+		<!--添加 Thymeleaf 依赖-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
 
 		<dependency>
