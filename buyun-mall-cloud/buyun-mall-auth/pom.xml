@@ -6,17 +6,18 @@
 		<groupId>com.buyun.mall</groupId>
 	    <artifactId>buyun-mall-cloud</artifactId>
 	    <version>0.0.1-SNAPSHOT</version>
-		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.buyun.mall</groupId>
 	<artifactId>buyun-mall-auth</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
 	<name>buyun-mall-auth</name>
 	<description>buyun-mall-auth 服务鉴权中心</description>
-	<packaging>pom</packaging>
 
 	<modules>
 		<module>buyun-mall-auth-common</module>
+		<module>buyun-mall-auth-client</module>
+		<module>buyun-mall-auth-server</module>
 	</modules>
 
 </project>
