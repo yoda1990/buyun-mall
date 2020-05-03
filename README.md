@@ -1,9 +1,11 @@
 # buyun-mall
-步云商城-暂时是一个电商项目、后续将包括小程序等
 
-1、整合thymeleaf模板
+## buyun-mall-cloud
+### buyun-mall-common
+此為基礎模塊，提供基礎服務和工具
 
-2、整合mybatis 注解方式（不适合使用）
+### buyun-mall-sso
+此為單點登錄模塊
 
 
 
