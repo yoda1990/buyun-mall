@@ -4,7 +4,7 @@ import com.buyun.mall.security.auth.common.util.jwt.IJWTInfo;
 import com.buyun.mall.security.auth.configuration.ClientConfiguration;
 import com.buyun.mall.security.auth.service.AuthClientService;
 import com.buyun.mall.security.auth.util.client.ClientTokenUtil;
-import com.buyun.mall.security.common.exception.auth.ClientForbiddenException;
+import com.buyun.mall.common.exception.auth.ClientForbiddenException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

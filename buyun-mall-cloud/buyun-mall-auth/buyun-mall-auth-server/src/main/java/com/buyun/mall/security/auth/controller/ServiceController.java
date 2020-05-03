@@ -3,8 +3,8 @@ package com.buyun.mall.security.auth.controller;
 import com.buyun.mall.security.auth.biz.ClientBiz;
 import com.buyun.mall.security.auth.entity.Client;
 import com.buyun.mall.security.auth.entity.ClientService;
-import com.buyun.mall.security.common.msg.ObjectRestResponse;
-import com.buyun.mall.security.common.rest.BaseController;
+import com.buyun.mall.common.msg.ObjectRestResponse;
+import com.buyun.mall.common.rest.BaseController;
 import org.springframework.web.bind.annotation.*;
 
 /**

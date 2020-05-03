@@ -6,7 +6,7 @@ import com.buyun.mall.security.auth.feign.IUserService;
 import com.buyun.mall.security.auth.service.AuthService;
 import com.buyun.mall.security.auth.util.user.JwtAuthenticationRequest;
 import com.buyun.mall.security.auth.util.user.JwtTokenUtil;
-import com.buyun.mall.security.common.exception.auth.UserInvalidException;
+import com.buyun.mall.common.exception.auth.UserInvalidException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;

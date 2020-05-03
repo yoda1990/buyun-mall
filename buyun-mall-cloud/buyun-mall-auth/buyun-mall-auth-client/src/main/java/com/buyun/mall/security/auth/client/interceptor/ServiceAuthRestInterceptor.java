@@ -1,10 +1,10 @@
 package com.buyun.mall.security.auth.client.interceptor;
 
+import com.buyun.mall.common.exception.auth.ClientForbiddenException;
 import com.buyun.mall.security.auth.client.annotation.IgnoreClientToken;
 import com.buyun.mall.security.auth.client.config.ServiceAuthConfig;
 import com.buyun.mall.security.auth.client.jwt.ServiceAuthUtil;
 import com.buyun.mall.security.auth.common.util.jwt.IJWTInfo;
-import com.buyun.mall.security.common.exception.auth.ClientForbiddenException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

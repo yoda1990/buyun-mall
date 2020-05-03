@@ -4,7 +4,7 @@ import com.buyun.mall.security.auth.client.annotation.IgnoreUserToken;
 import com.buyun.mall.security.auth.client.config.UserAuthConfig;
 import com.buyun.mall.security.auth.client.jwt.UserAuthUtil;
 import com.buyun.mall.security.auth.common.util.jwt.IJWTInfo;
-import com.buyun.mall.security.common.context.BaseContextHandler;
+import com.buyun.mall.common.context.BaseContextHandler;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -2,7 +2,7 @@ package com.buyun.mall.security.auth.configuration;
 
 import com.buyun.mall.security.auth.interceptor.ServiceAuthRestInterceptor;
 import com.buyun.mall.security.auth.interceptor.UserAuthRestInterceptor;
-import com.buyun.mall.security.common.handler.GlobalExceptionHandler;
+import com.buyun.mall.common.handler.GlobalExceptionHandler;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
@@ -19,6 +19,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration("admimWebConfig")
 @Primary
 public class WebConfiguration implements WebMvcConfigurer {
+
     @Bean
     GlobalExceptionHandler getGlobalExceptionHandler() {
         return new GlobalExceptionHandler();

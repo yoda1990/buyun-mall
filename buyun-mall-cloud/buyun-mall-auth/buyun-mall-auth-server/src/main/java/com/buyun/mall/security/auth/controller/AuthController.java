@@ -2,7 +2,7 @@ package com.buyun.mall.security.auth.controller;
 
 import com.buyun.mall.security.auth.service.AuthService;
 import com.buyun.mall.security.auth.util.user.JwtAuthenticationRequest;
-import com.buyun.mall.security.common.msg.ObjectRestResponse;
+import com.buyun.mall.common.msg.ObjectRestResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;

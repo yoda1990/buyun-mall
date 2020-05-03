@@ -1,7 +1,7 @@
 package com.buyun.mall.security.auth.common.util.jwt;
 
-import com.study.security.auth.common.util.StringHelper;
-import com.study.security.auth.common.constatns.CommonConstants;
+import com.buyun.mall.security.auth.common.constatns.CommonConstants;
+import com.buyun.mall.security.auth.common.util.StringHelper;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jws;
 import io.jsonwebtoken.Jwts;

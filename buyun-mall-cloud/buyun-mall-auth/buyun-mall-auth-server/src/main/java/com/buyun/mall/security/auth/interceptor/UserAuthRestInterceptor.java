@@ -3,7 +3,7 @@ package com.buyun.mall.security.auth.interceptor;
 import com.buyun.mall.security.auth.common.util.jwt.IJWTInfo;
 import com.buyun.mall.security.auth.configuration.UserConfiguration;
 import com.buyun.mall.security.auth.util.user.JwtTokenUtil;
-import com.buyun.mall.security.common.context.BaseContextHandler;
+import com.buyun.mall.common.context.BaseContextHandler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

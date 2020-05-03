@@ -2,7 +2,7 @@ package com.buyun.mall.security.auth.controller;
 
 import com.buyun.mall.security.auth.configuration.KeyConfiguration;
 import com.buyun.mall.security.auth.service.AuthClientService;
-import com.buyun.mall.security.common.msg.ObjectRestResponse;
+import com.buyun.mall.common.msg.ObjectRestResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

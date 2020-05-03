@@ -12,6 +12,7 @@ import javax.servlet.http.HttpServletRequest;
  * @Version 1.0
  */
 public class ServiceAuthConfig {
+
     private byte[] pubKeyByte;
     @Value("${auth.client.id:null}")
     private String clientId;

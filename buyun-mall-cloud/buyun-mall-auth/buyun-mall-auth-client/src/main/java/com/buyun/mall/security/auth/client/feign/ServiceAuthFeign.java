@@ -1,6 +1,6 @@
 package com.buyun.mall.security.auth.client.feign;
 
-import com.buyun.mall.security.common.msg.ObjectRestResponse;
+import com.buyun.mall.common.msg.ObjectRestResponse;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;

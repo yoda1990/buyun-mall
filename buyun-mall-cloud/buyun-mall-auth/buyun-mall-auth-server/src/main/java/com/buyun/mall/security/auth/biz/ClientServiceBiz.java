@@ -2,7 +2,7 @@ package com.buyun.mall.security.auth.biz;
 
 import com.buyun.mall.security.auth.entity.ClientService;
 import com.buyun.mall.security.auth.mapper.ClientServiceMapper;
-import com.buyun.mall.security.common.biz.BaseBiz;
+import com.buyun.mall.common.biz.BaseBiz;
 import org.springframework.stereotype.Service;
 
 /**

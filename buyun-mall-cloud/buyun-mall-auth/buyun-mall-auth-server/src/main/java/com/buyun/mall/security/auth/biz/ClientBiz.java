@@ -4,7 +4,7 @@ import com.buyun.mall.security.auth.entity.Client;
 import com.buyun.mall.security.auth.entity.ClientService;
 import com.buyun.mall.security.auth.mapper.ClientMapper;
 import com.buyun.mall.security.auth.mapper.ClientServiceMapper;
-import com.buyun.mall.security.common.biz.BaseBiz;
+import com.buyun.mall.common.biz.BaseBiz;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
