@@ -1,7 +1,12 @@
 package com.buyun.mall.common.service.impl;
 
-
 import java.util.List;
+
+import com.buyun.mall.common.service.BaseService;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import tk.mybatis.mapper.common.Mapper;
 
 public class BaseServiceImpl<M extends Mapper<T>, T> implements BaseService<T> {
     
