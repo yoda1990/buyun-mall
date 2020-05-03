@@ -4,8 +4,8 @@
 ### buyun-mall-common
 此為基礎模塊，提供基礎服務和工具
 
-### buyun-mall-sso
-此為單點登錄模塊
+### buyun-mall-auth
+服务鉴权中心
 
-
+### buyun-mall-gateway
 
