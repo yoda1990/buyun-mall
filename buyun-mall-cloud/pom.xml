@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.buyun.mall</groupId>
-	<artifactId>buyun-mall</artifactId>
+	<artifactId>buyun-mall-cloud</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>bunyun-mall</name>
+	<name>bunyun-mall-cloud</name>
 	<description>Demo project for Spring Cloud</description>
 
 	<properties>
