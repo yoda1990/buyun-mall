@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * @Date 2020/5/11 17:00
  * @Version 1.0
  */
-@FeignClient(value = "cloud-admin", configuration = FeignConfiguration.class)
+@FeignClient(value = "buyun-mall-admin", configuration = FeignConfiguration.class)
 public interface IUserService {
     @RequestMapping(value = "/api/user/validate", method = RequestMethod.POST)
     public UserInfo validate(@RequestBody JwtAuthenticationRequest authenticationRequest);
