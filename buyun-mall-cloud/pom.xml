@@ -28,6 +28,7 @@
     <modules>
         <module>buyun-mall-common</module>
         <module>buyun-mall-gateway</module>
+        <module>buyun-mall-admin</module>
     </modules>
 
 	<dependencies>

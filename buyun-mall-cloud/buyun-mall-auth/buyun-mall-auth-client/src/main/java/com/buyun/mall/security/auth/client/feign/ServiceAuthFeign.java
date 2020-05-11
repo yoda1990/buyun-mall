@@ -17,6 +17,7 @@ import java.util.List;
  */
 @FeignClient(value = "${auth.serviceId}", configuration = {})
 public interface ServiceAuthFeign {
+
     @RequestMapping(value = "/client/myClient")
     public ObjectRestResponse<List<String>> getAllowedClient(@RequestParam("serviceId") String serviceId, @RequestParam("secret") String secret);
 

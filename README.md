@@ -10,3 +10,7 @@
 ### buyun-mall-gateway
 
 添加了网关层
+
+### buyun-mall-admin
+
+添加网关后台管理服务
