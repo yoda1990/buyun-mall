@@ -19,8 +19,8 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @MapperScan("com.buyun.mall.live.mapper")
 @RefreshScope
 @EnableDiscoveryClient
-public class AuthBootstrap {
+public class LiveBootstrap {
     public static void main(String[] args) {
-        SpringApplication.run(AuthBootstrap.class, args);
+        SpringApplication.run(LiveBootstrap.class, args);
     }
 }
